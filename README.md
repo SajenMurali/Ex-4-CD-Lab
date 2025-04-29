@@ -14,7 +14,7 @@ To write a YACC program to recognize a valid variable which starts with a letter
 # PROGRAM
 ```
 
-Program name:ex4.l
+ex4.l
 %{
 /* This LEX program returns the tokens for the Expression */
 #include"y.tab.h"
@@ -33,7 +33,7 @@ int yywrap()
 {
 return 1;
 }
-Program name:ex4.y
+ex4.y
 %{
 #include<stdio.h>
 /* This YACC program is for recognising the Expression*/
